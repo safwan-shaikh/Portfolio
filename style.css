@@ -331,3 +331,29 @@ background {
 .Social:hover {
   transform: translateY(-5px);
 }
+
+#msg{
+  color:#04AA6D;
+  display: block;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.progress-bar .progress {
+  background-color: #4caf50;
+  height: 100%;
+  width: 75%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
