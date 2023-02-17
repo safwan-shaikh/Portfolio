@@ -437,7 +437,7 @@ input[type=submit]:hover {
   margin-top: 5.5rem;
 }
 .progress-bar .progress {
-  background-color: #4caf50;
+  background-color:#fd4766;
   height: 100%;
   width: 75%;
   text-align: center;
