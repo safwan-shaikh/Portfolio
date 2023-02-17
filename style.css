@@ -7,6 +7,25 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+/* Set the initial state of the element */
+
+
+/* Define the animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the element */
+.entry {
+  animation: fade-in 1s ease-out;
+}
 
 
 a {
@@ -150,16 +169,18 @@ nav ul li a:hover:after {
 }
 
 .aboutImg {
-  height: 35ch;
-  width: 100%;
+  
+  width: 130%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+ 
 }
 
 #about {
   text-align: center;
   padding: 50px;
+ 
 }
 
 #about h2 {
@@ -256,6 +277,12 @@ img:hover {
   color: gray;
 }
 
+.imgContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .gif1{
   position:static;
   align:left;
@@ -263,6 +290,7 @@ img:hover {
   margin-top: 1px;
   margin-left: 4px;
   size: 50%;
+  padding: 0.3rem;
       
 }
 
@@ -279,6 +307,16 @@ img:hover {
   padding: 49px;
 }
 
+.btn-edu {
+  
+  font-size: 40px;
+  margin-left: 134%;
+  opacity: 50%;
+  
+}
+.btn-edu:hover{
+  opacity: 100%;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -356,4 +394,36 @@ background {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.btn-top {
+  
+  font-size: 40px;
+  margin-left: 120%;
+  opacity: 50%;
+  
+}
+.btn-top:hover{
+  opacity: 100%;
+}
+
+.btn-last {
+  
+  font-size: 40px;
+ margin-left: 110%;
+ opacity: 50%;
+  
+}
+.btn-last:hover{
+  opacity: 100%;
+}
+
+.btn-about {
+  
+  font-size: 40px;
+  margin-left: 100%;
+ opacity: 50%;
+  
+}
+.btn-about:hover{
+  opacity: 100%;
 }
